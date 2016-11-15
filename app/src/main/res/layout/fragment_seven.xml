@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FragmentSeven"
+    android:background="@color/secondoColor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6" />
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+            android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPreguntaOcho"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:textStyle="bold|normal"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:textSize="18dp"
+                android:hint="Ingresa tu sugerencia"
+                android:elegantTextHeight="false"
+                android:textColorHint="#941C7F"
+                android:background="#ffffff" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Siguiente"
+            android:id="@+id/button_next"
+            android:layout_gravity="center"
+            style="@style/button"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+</LinearLayout>
+
+</FrameLayout>

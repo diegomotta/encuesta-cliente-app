@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FragmentThree"
+    android:background="@color/secondoColor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPreguntaCuatro"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textStyle="bold|normal"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar4"
+                android:layout_gravity="center_horizontal|bottom"
+                android:numStars="5"
+                android:stepSize="1"
+                android:rating="0"
+                android:theme="@style/RatingBar" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPreguntaCinco"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textStyle="bold|normal"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:textSize="18dp"
+                android:hint="Ingresa tu sugerencia"
+                android:elegantTextHeight="false"
+                android:textColorHint="#941C7F"
+                android:background="#ffffff" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Siguiente"
+                android:id="@+id/button_next"
+                android:layout_gravity="center_horizontal"
+                style="@style/button" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

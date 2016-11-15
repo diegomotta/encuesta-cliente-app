@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FragmentTen"
+    android:background="@color/secondoColor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPreguntaOnce"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textStyle="bold|normal"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Si "
+                    android:id="@+id/radioButton3"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/radioButton4"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:checked="false" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Siguiente"
+                android:id="@+id/button_next"
+                android:layout_gravity="center"
+                style="@style/button"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

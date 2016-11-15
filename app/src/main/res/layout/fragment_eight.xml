@@ -1,0 +1,184 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FragmentEight"
+    android:background="@color/secondoColor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPreguntaNueve"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:textStyle="bold|normal"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salsas suaves"
+                android:id="@+id/textView2"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Olivas"
+                    android:id="@+id/checkBox"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jamón"
+                    android:id="@+id/checkBox2"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vitel Toné"
+                    android:id="@+id/checkBox3"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choclo y Queso"
+                    android:id="@+id/checkBox4"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salsas semipicantes"
+                android:id="@+id/textView3"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioGroup
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Húngaro"
+                    android:id="@+id/checkBox5"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trujillo"
+                    android:id="@+id/checkBox6"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Otras salsas"
+                android:id="@+id/textView4"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioGroup
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Criolla"
+                    android:id="@+id/checkBox7"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Provenzal"
+                    android:id="@+id/checkBox8"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chimichurri"
+                    android:id="@+id/checkBox9"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="28"
+            android:layout_gravity="top">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Siguiente"
+            android:id="@+id/button_next"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            style="@style/button" />
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

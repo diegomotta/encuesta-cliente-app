@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FragmentSix"
+    android:background="@color/secondoColor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPreguntaSiete"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textStyle="bold|normal"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bondiola de cerdo"
+                    android:id="@+id/checkBox_1"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cuadril"
+                    android:id="@+id/checkBox_2"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suprema de pollo"
+                    android:id="@+id/checkBox_3"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Combinado"
+                    android:id="@+id/checkBox_4"
+                    android:checked="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Siguiente"
+            android:id="@+id/button_next"
+            android:layout_gravity="center"
+            style="@style/button"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+</LinearLayout>
+
+
+</FrameLayout>

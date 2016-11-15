@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "633425693840",
+    "firebase_url": "https://anketa-2de93.firebaseio.com",
+    "project_id": "anketa-2de93",
+    "storage_bucket": "anketa-2de93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633425693840:android:8263ebfef8f471a3",
+        "android_client_info": {
+          "package_name": "com.jungledev.anketa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633425693840-18brvosj9uocqibmi73v1p9tsvojn46h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jungledev.anketa",
+            "certificate_hash": "B86D6F993997394949ECC83A3F9442BFE6D3C62C"
+          }
+        },
+        {
+          "client_id": "633425693840-51gg430ti5g5vjs1g549t3kl40rs4r80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt19bQ1mixZmzikigBwezDzbjJNoJKGyQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633425693840-51gg430ti5g5vjs1g549t3kl40rs4r80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

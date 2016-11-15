@@ -1,0 +1,20 @@
+apply plugin: 'com.android.library'
+
+
+group 'com.antonyt.infiniteviewpager'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        targetSdkVersion 24
+        minSdkVersion 16
+
+    }
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:24.2.1'
+}
